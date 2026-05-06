@@ -67,8 +67,7 @@ private:
     void open_load_mesh_dialog();
 
     // Sets the model to be displayed
-    void set_model(std::unique_ptr<reshaping::TriMesh>& model);
-
+    void set_model(std::unique_ptr<reshaping::TriMesh> model);
     // Reset model geometry to its original state
     void reset_model_geometry();
 

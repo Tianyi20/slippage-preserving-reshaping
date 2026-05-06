@@ -1,6 +1,6 @@
 #pragma once
 
-#include <ca_essentials/meshes/Trimesh.h>
+#include <ca_essentials/meshes/trimesh.h>
 
 #include <vector>
 

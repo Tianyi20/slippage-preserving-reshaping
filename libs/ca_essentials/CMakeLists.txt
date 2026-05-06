@@ -46,7 +46,8 @@ file(GLOB MESHES_SOURCES "${INCLUDE_DIR}/ca_essentials/meshes/*.h"
 if(CA_ESSENTIALS_RENDERER)
 	file(GLOB RENDERER_SOURCES "${INCLUDE_DIR}/ca_essentials/renderer/*.h"
 					  		   "${SOURCE_DIR}/renderer/*.cpp")
-	set(DEPENDENCIES_LIB ${DEPENDENCIES_LIB} glad::glad opengl32)
+	find_package(OpenGL REQUIRED)
+	set(DEPENDENCIES_LIB ${DEPENDENCIES_LIB} glad::glad OpenGL::GL)
 endif()
 
 # Adding UI sources if option is ON

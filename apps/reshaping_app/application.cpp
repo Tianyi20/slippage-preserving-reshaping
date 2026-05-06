@@ -150,7 +150,7 @@ void Application::close() {
     m_window->close();
 }
 
-void Application::set_model(std::unique_ptr<reshaping::TriMesh>& mesh) {
+void Application::set_model(std::unique_ptr<reshaping::TriMesh> mesh) {
     m_mesh = std::move(mesh);
     m_orig_V = m_mesh->get_vertices();
 }

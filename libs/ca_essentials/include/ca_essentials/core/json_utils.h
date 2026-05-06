@@ -37,10 +37,10 @@ nlohmann::json vecToJson(const T& v) {
 
 template <typename T>
 nlohmann::json matToJson(const T& v) {
-    json j;
+    nlohmann::json j;
     for (auto r = 0; r < v.rows(); r++)
     {
-        json row_j;
+        nlohmann::json row_j;
         for (auto c = 0; c < v.cols(); c++)
             row_j.push_back(v(r, c));
         j.push_back(row_j);

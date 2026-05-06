@@ -10,7 +10,7 @@
 #include <igl/per_face_normals.h>
 
 #include <filesystem>
-
+#include <cfloat>
 namespace {
 
 // Exports the set of triangles in a ring to an OBJ file

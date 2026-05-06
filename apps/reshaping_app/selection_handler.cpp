@@ -4,7 +4,7 @@
 #include <igl/unproject_onto_mesh.h>
 #include <igl/adjacency_list.h>
 #include <igl/dijkstra.h>
-
+#include <cfloat>
 namespace {
 }
 

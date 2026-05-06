@@ -14,15 +14,15 @@ message(STATUS "Third-party (external): creating target 'imguizmo::imguizmo'")
 
 # Find include files
 find_path(
-		IMGUIZMO_INCLUDE_DIR
-		NAMES imguizmo.h
-		PATHS
-		${DEPENDENCIES_BASE_DIR}
-		${DEPENDENCIES_BASE_DIR}/imguizmo
-		DOC "The directory where imguizmo.h resides")
+        IMGUIZMO_INCLUDE_DIR
+        NAMES ImGuizmo.h
+        PATHS
+        ${DEPENDENCIES_BASE_DIR}
+        ${DEPENDENCIES_BASE_DIR}/imguizmo
+        DOC "The directory where ImGuizmo.h resides")
 
-set(HEADERS ${IMGUIZMO_INCLUDE_DIR}/imguizmo.h)
-set(SOURCES ${IMGUIZMO_INCLUDE_DIR}/imguizmo.cpp)
+set(HEADERS ${IMGUIZMO_INCLUDE_DIR}/ImGuizmo.h)
+set(SOURCES ${IMGUIZMO_INCLUDE_DIR}/ImGuizmo.cpp)
 
 add_library(imguizmo ${HEADERS} ${SOURCES})
 target_include_directories(imguizmo PUBLIC ${IMGUIZMO_INCLUDE_DIR})    
@@ -32,4 +32,3 @@ target_link_libraries(imguizmo PUBLIC
 
 set_target_properties(imguizmo PROPERTIES FOLDER third_party)
 add_library(imguizmo::imguizmo ALIAS imguizmo)
-

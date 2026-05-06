@@ -19,8 +19,7 @@
 #include <ca_essentials/renderer/framebuffer.h>
 
 #include <lagrange/common.h>
-#include <lagrange/mesh.h>
-
+#include <lagrange/Mesh.h>
 #include <memory>
 
 class SceneViewer {

@@ -19,7 +19,7 @@ public:
 
     // ImGui requires a non-const pointer
     static ImFont* get_font(const std::string& id) {
-        auto& itr = ImGuiFontProvider::s_fonts.find(id);
+        auto itr = ImGuiFontProvider::s_fonts.find(id);
         if(itr != ImGuiFontProvider::s_fonts.end())
             return itr->second;
         else

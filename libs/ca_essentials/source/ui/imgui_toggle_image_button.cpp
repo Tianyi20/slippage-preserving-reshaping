@@ -1,5 +1,7 @@
 #include <ca_essentials/ui/imgui_toggle_image_button.h>
 
+#include <imgui.h>
+#include <cstdint>
 #define IMGUI_DEFINE_MATH_OPERATORS
 #include <imgui_internal.h>
 

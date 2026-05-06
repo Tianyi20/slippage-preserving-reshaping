@@ -23,7 +23,7 @@ target_include_directories(reshaping_app PUBLIC "${BASE_LIBS_INCLUDE_DIR}"
 target_link_libraries(reshaping_app PUBLIC 
     mesh_reshaping_lib
     glfw::glfw
-    opengl32
+    OpenGL::GL
     imgui::imgui
     imguizmo::imguizmo
     Eigen3::Eigen
