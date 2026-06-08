@@ -1,0 +1,23 @@
+# 1) Add these options near the top-level CMakeLists.txt option section.
+#    Keep RESHAPING_APP off while developing the Python binding, otherwise the
+#    unrelated GUI target may continue failing in scene_viewer.cpp.
+set(RESHAPING_DEMO TRUE CACHE BOOL "Build 3D Reshaping demo" FORCE)
+set(RESHAPING_APP  FALSE CACHE BOOL "Build 3D Reshaping GUI Application" FORCE)
+set(RESHAPING_CPP_WRAPPER TRUE CACHE BOOL "Build 3D Reshaping C++ wrapper" FORCE)
+set(RESHAPING_PYTHON_BINDING TRUE CACHE BOOL "Build Python binding" FORCE)
+
+# Strongly recommended for Python extensions that link static C++ libraries.
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+# 2) Add these subdirectories near the bottom, after mesh_reshaping_lib exists.
+#    The Python binding must come after reshaping_cpp_wrapper_step1 because it
+#    links against the reshaping_optimizer target.
+if(RESHAPING_CPP_WRAPPER)
+    message(STATUS "3D Reshaping C++ wrapper enabled")
+    add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_cpp_wrapper_step1")
+endif()
+
+if(RESHAPING_PYTHON_BINDING)
+    message(STATUS "3D Reshaping Python binding enabled")
+    add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_python_binding")
+endif()

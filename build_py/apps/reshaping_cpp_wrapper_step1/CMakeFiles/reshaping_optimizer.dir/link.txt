@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreshaping_optimizer.a CMakeFiles/reshaping_optimizer.dir/ReshapingOptimizer.cpp.o
+/usr/bin/ranlib libreshaping_optimizer.a

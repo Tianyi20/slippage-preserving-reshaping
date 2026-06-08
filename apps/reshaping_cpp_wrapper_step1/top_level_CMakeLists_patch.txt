@@ -1,0 +1,10 @@
+# Put this in the top-level CMakeLists.txt options section:
+set(RESHAPING_DEMO TRUE CACHE BOOL "Build 3D Reshaping demo" FORCE)
+set(RESHAPING_APP  FALSE CACHE BOOL "Build 3D Reshaping GUI Application" FORCE)
+set(RESHAPING_CPP_WRAPPER TRUE CACHE BOOL "Build 3D Reshaping C++ wrapper" FORCE)
+
+# Put this near the bottom with the other apps:
+if(RESHAPING_CPP_WRAPPER)
+    message(STATUS "3D Reshaping C++ wrapper enabled")
+    add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_cpp_wrapper_step1")
+endif()

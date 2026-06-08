@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slippage-reshaping"
+version = "0.1.0"
+description = "Python binding for slippage-preserving mesh reshaping"
+requires-python = ">=3.9"
+dependencies = ["numpy"]

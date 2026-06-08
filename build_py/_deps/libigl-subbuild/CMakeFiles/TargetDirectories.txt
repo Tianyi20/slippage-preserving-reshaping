@@ -1,0 +1,3 @@
+/home/iadc/slippage-preserving-reshaping/build_py/_deps/libigl-subbuild/CMakeFiles/libigl-populate.dir
+/home/iadc/slippage-preserving-reshaping/build_py/_deps/libigl-subbuild/CMakeFiles/edit_cache.dir
+/home/iadc/slippage-preserving-reshaping/build_py/_deps/libigl-subbuild/CMakeFiles/rebuild_cache.dir

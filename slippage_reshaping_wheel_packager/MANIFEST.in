@@ -1,0 +1,2 @@
+recursive-include slippage_reshaping *.so
+include slippage_reshaping/__init__.py

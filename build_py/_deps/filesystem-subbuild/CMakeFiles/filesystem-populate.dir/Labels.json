@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/CMakeFiles/filesystem-populate-complete.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-build.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-configure.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-download.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-install.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-patch.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-test.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/filesystem-subbuild/filesystem-populate-prefix/src/filesystem-populate-stamp/filesystem-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"filesystem-populate"
+		],
+		"name" : "filesystem-populate"
+	}
+}

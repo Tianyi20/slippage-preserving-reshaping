@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/data_filenames.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/data_filenames.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/edit_operation.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/edit_operation.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/face_principal_curvatures_io.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/face_principal_curvatures_io.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/handle_error_distribution.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/handle_error_distribution.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/load_feature_edges.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/load_feature_edges.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/precompute_reshaping_data.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/precompute_reshaping_data.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_energy.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_energy.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_tool.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_tool.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_tool_io.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/reshaping_tool_io.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/similarity_term.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/similarity_term.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/sphericity_terms_info.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/sphericity_terms_info.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/straight_chains.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/straight_chains.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/transformation_solve.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/transformation_solve.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/transformation_solve_energy.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/transformation_solve_energy.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/vertex_solve.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/vertex_solve.cpp.o.d"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/vertex_solve_energy.cpp.o"
+  "CMakeFiles/mesh_reshaping_lib.dir/source/mesh_reshaping/vertex_solve_energy.cpp.o.d"
+  "libmesh_reshaping_lib.a"
+  "libmesh_reshaping_lib.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mesh_reshaping_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,45 @@
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-fcolor-diagnostics failed with the following output:
+Change Dir: /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a09bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a09bb.dir/build.make CMakeFiles/cmTC_a09bb.dir/build
+gmake[1]: Entering directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a09bb.dir/src.cxx.o
+/usr/bin/c++   -fPIE   -DIS_SUPPORTED_-fcolor-diagnostics -fcolor-diagnostics -o CMakeFiles/cmTC_a09bb.dir/src.cxx.o -c /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-fcolor-diagnostics'
+gmake[1]: *** [CMakeFiles/cmTC_a09bb.dir/build.make:78: CMakeFiles/cmTC_a09bb.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a09bb/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-c++17-extensions failed with the following output:
+Change Dir: /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2359b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2359b.dir/build.make CMakeFiles/cmTC_2359b.dir/build
+gmake[1]: Entering directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2359b.dir/src.cxx.o
+/usr/bin/c++   -fPIE   -DIS_SUPPORTED_-Werror-c++17-extensions -Werror=c++17-extensions -o CMakeFiles/cmTC_2359b.dir/src.cxx.o -c /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=c++17-extensions': no option '-Wc++17-extensions'; did you mean '-fms-extensions'?
+gmake[1]: *** [CMakeFiles/cmTC_2359b.dir/build.make:78: CMakeFiles/cmTC_2359b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2359b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-c++2a-extensions failed with the following output:
+Change Dir: /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_170ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_170ac.dir/build.make CMakeFiles/cmTC_170ac.dir/build
+gmake[1]: Entering directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_170ac.dir/src.cxx.o
+/usr/bin/c++   -fPIE   -DIS_SUPPORTED_-Werror-c++2a-extensions -Werror=c++2a-extensions -o CMakeFiles/cmTC_170ac.dir/src.cxx.o -c /home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=c++2a-extensions': no option '-Wc++2a-extensions'; did you mean '-fms-extensions'?
+gmake[1]: *** [CMakeFiles/cmTC_170ac.dir/build.make:78: CMakeFiles/cmTC_170ac.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/iadc/slippage-preserving-reshaping/build_py/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_170ac/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

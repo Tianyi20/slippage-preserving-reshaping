@@ -23,10 +23,17 @@ public:
         auto curr_time = now();
         const auto itr = m_start_points.find(start_point_id);
 
-        assert(itr != m_start_points.end() &&
-               "Unexpected start point id \"" + start_point_id.c_str() + "\"");
+        if (itr == m_start_points.end()) {
+            throw std::runtime_error(
+                std::string("Unexpected start point id \"") + start_point_id + "\""
+            );
+        }
 
-        return (double) chrono::duration_cast<chrono::milliseconds>(curr_time - itr->second).count();
+        return static_cast<double>(
+            chrono::duration_cast<chrono::milliseconds>(
+                curr_time - itr->second
+            ).count()
+        );
     }
 
 private:

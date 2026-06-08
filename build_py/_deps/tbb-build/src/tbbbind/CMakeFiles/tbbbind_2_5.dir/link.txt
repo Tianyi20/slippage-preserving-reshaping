@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../gnu_11.4_cxx17_64_release/libtbbbind_2_5.a CMakeFiles/tbbbind_2_5.dir/tbb_bind.cpp.o
+/usr/bin/ranlib ../../../../gnu_11.4_cxx17_64_release/libtbbbind_2_5.a

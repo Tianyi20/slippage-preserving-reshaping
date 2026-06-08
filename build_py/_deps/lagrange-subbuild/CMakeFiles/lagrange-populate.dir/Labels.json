@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/CMakeFiles/lagrange-populate"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/CMakeFiles/lagrange-populate.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/CMakeFiles/lagrange-populate-complete.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-build.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-configure.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-download.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-install.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-patch.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-test.rule"
+		},
+		{
+			"file" : "/home/iadc/slippage-preserving-reshaping/build_py/_deps/lagrange-subbuild/lagrange-populate-prefix/src/lagrange-populate-stamp/lagrange-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"lagrange-populate"
+		],
+		"name" : "lagrange-populate"
+	}
+}

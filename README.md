@@ -33,6 +33,10 @@ Now, either open the VS project or build it directly from the command line as fo
 cmake --build . --config Release
 ```
 
+```
+cmake --build . -j$(nproc)
+```
+
 ## Project Structure
 ```
 README.md
@@ -57,6 +61,10 @@ After building the project, the reshaping library, reshaping_app executable, and
 + `reshaping_demo.exe` can be found under `./build/apps/reshaping_demo/Release/`
 + `reshaping_app.exe` can be found under `./build/apps/reshaping_app/Release/`
 
+## Notes
+
+The input mesh requires significant manifold mesh (一条边只被 1 个面共享，也就是洞/开口边界). Use repair_mesh.py to ensure the mesh is manifold. A precomputed per-face curvatures is required along with the input mesh.
+
 ## Usage
 
 ### mesh_reshaping.lib
@@ -66,6 +74,11 @@ Check the `./apps/reshaping_demo` folder for a demo example of how to use the re
 To run the reshaping demo, use the following command:
 ```bash
 reshaping_demo.exe -i <input_fn> -o <output_dir> -e <edit_operation_label>
+```
+
+Eg
+```
+./reshaping_demo -i /home/iadc/slippage-preserving-reshaping/models/cutlery_s26-1.obj -o ~/reshaping_outputs/ -e live
 ```
 
 where:

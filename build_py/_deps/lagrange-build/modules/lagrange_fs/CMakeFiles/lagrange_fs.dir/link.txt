@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblagrange_fs.a CMakeFiles/lagrange_fs.dir/src/file_utils.cpp.o CMakeFiles/lagrange_fs.dir/src/filesystem.cpp.o
+/usr/bin/ranlib liblagrange_fs.a

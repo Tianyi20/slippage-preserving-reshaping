@@ -18,8 +18,14 @@ set(DEPENDENCIES_BASE_DIR "${PROJECT_SOURCE_DIR}/deps")
 #######################################################
 set(RESHAPING_DEMO TRUE CACHE BOOL "Build 3D Reshaping demo" FORCE)
 set(RESHAPING_APP  TRUE CACHE BOOL "Build 3D Reshaping GUI Application" FORCE)
+set(RESHAPING_cpp  TRUE CACHE BOOL "Build 3D Reshaping C++ extension" FORCE)
+
+set(RESHAPING_PYTHON_BINDING TRUE CACHE BOOL "Build Python binding" FORCE)
+
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 add_compile_definitions(_USE_MATH_DEFINES)
 add_compile_definitions(NOMINMAX)
 
@@ -73,4 +79,14 @@ endif()
 if(RESHAPING_APP)
 	message(STATUS "3D Reshaping GUI application enabled")
     add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_app")
+endif()
+
+if(RESHAPING_cpp)
+	message(STATUS "3D Reshaping GUI application enabled")
+    add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_cpp_wrapper_step1")
+endif()
+
+if(RESHAPING_PYTHON_BINDING)
+    message(STATUS "3D Reshaping Python binding enabled")
+    add_subdirectory("${PROJECT_SOURCE_DIR}/apps/reshaping_python_binding")
 endif()

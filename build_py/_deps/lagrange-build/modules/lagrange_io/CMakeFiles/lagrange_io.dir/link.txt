@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblagrange_io.a CMakeFiles/lagrange_io.dir/src/load_mesh.cpp.o
+/usr/bin/ranlib liblagrange_io.a

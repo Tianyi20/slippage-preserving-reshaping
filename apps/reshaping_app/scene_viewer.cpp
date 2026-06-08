@@ -338,7 +338,7 @@ void SceneViewer::setup_toolbar() {
 
     auto get_texture_id = [](const std::string& id) -> GLuint {
         auto res = renderer::TextureProvider::texture_id(id);
-        assert(res.first && "Invalid texture id: " + id);
+        assert(res.first && "Invalid texture id");
 
         return res.first;
     };
@@ -353,7 +353,7 @@ void SceneViewer::setup_toolbar() {
         const std::string& tip = TOOLBAR_INFO[mode_idx].tip;
 
         auto res = renderer::TextureProvider::texture_id(id);
-        assert(res.first && "Invalid texture id: " + id);
+        assert(res.first && "Invalid texture id");
 
         m_toolbar->add_button(res.second, tip, &this->m_per_mode_status.at(mode_idx));
 

@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+slippage_reshaping/__init__.py
+slippage_reshaping/slippage_reshaping_cpp.cpython-39-x86_64-linux-gnu.so
+slippage_reshaping.egg-info/PKG-INFO
+slippage_reshaping.egg-info/SOURCES.txt
+slippage_reshaping.egg-info/dependency_links.txt
+slippage_reshaping.egg-info/not-zip-safe
+slippage_reshaping.egg-info/requires.txt
+slippage_reshaping.egg-info/top_level.txt
